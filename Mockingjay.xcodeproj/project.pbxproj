@@ -13,7 +13,6 @@
 		274367961AA27B170030C97B /* MockingjayProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367951AA27B170030C97B /* MockingjayProtocolTests.swift */; };
 		274367981AA28AFC0030C97B /* Matchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367971AA28AFC0030C97B /* Matchers.swift */; };
 		2743679A1AA28B0D0030C97B /* MatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367991AA28B0D0030C97B /* MatcherTests.swift */; };
-		274367AE1AA29AED0030C97B /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274367A91AA29ADA0030C97B /* URITemplate.framework */; };
 		274367B01AA29E510030C97B /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367AF1AA29E510030C97B /* Builders.swift */; };
 		274367B21AA29E620030C97B /* BuildersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367B11AA29E620030C97B /* BuildersTests.swift */; };
 		274367C61AA35FD00030C97B /* NSURLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367C51AA35FD00030C97B /* NSURLSessionConfiguration.swift */; };
@@ -21,31 +20,14 @@
 		2746CDCB1A702F7800719B66 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746CDBF1A702F7800719B66 /* Mockingjay.framework */; };
 		2746CDD21A702F7800719B66 /* MockingjayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746CDD11A702F7800719B66 /* MockingjayTests.swift */; };
 		27703A631CE2560600194732 /* MockingjayURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 27703A621CE2560600194732 /* MockingjayURLSessionConfiguration.m */; };
+		920A4D1C1CE5DFC20050B571 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A4D1B1CE5DFC20050B571 /* URITemplate.framework */; };
+		920A4D221CE5E11C0050B571 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A4D211CE5E11C0050B571 /* URITemplate.framework */; };
+		920A4D251CE5E1270050B571 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A4D241CE5E1270050B571 /* URITemplate.framework */; };
+		920A4D281CE5E13A0050B571 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A4D271CE5E13A0050B571 /* URITemplate.framework */; };
 		A1E3C5701AA4EA130069C998 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743679B1AA28D4D0030C97B /* XCTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		274367A81AA29ADA0030C97B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 77356D801A253325002822CF;
-			remoteInfo = URITemplate;
-		};
-		274367AA1AA29ADA0030C97B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 77356D8B1A253325002822CF;
-			remoteInfo = URITemplateTests;
-		};
-		274367AC1AA29AE70030C97B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 77356D7F1A253325002822CF;
-			remoteInfo = URITemplate;
-		};
 		2746CDCC1A702F7800719B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2746CDB61A702F7800719B66 /* Project object */;
@@ -63,7 +45,6 @@
 		274367971AA28AFC0030C97B /* Matchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matchers.swift; sourceTree = "<group>"; };
 		274367991AA28B0D0030C97B /* MatcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatcherTests.swift; sourceTree = "<group>"; };
 		2743679B1AA28D4D0030C97B /* XCTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTest.swift; sourceTree = "<group>"; };
-		274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = URITemplate.xcodeproj; path = URITemplate/URITemplate.xcodeproj; sourceTree = "<group>"; };
 		274367AF1AA29E510030C97B /* Builders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		274367B11AA29E620030C97B /* BuildersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildersTests.swift; sourceTree = "<group>"; };
 		274367C51AA35FD00030C97B /* NSURLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLSessionConfiguration.swift; sourceTree = "<group>"; };
@@ -77,6 +58,10 @@
 		2746CDDD1A702FC100719B66 /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
 		2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		27703A621CE2560600194732 /* MockingjayURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockingjayURLSessionConfiguration.m; sourceTree = "<group>"; };
+		920A4D1B1CE5DFC20050B571 /* URITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URITemplate.framework; path = Carthage/Build/iOS/URITemplate.framework; sourceTree = "<group>"; };
+		920A4D211CE5E11C0050B571 /* URITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URITemplate.framework; path = Carthage/Build/Mac/URITemplate.framework; sourceTree = "<group>"; };
+		920A4D241CE5E1270050B571 /* URITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URITemplate.framework; path = Carthage/Build/tvOS/URITemplate.framework; sourceTree = "<group>"; };
+		920A4D271CE5E13A0050B571 /* URITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URITemplate.framework; path = Carthage/Build/watchOS/URITemplate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274367AE1AA29AED0030C97B /* URITemplate.framework in Frameworks */,
+				920A4D1C1CE5DFC20050B571 /* URITemplate.framework in Frameworks */,
+				920A4D281CE5E13A0050B571 /* URITemplate.framework in Frameworks */,
+				920A4D251CE5E1270050B571 /* URITemplate.framework in Frameworks */,
+				920A4D221CE5E11C0050B571 /* URITemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,23 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274367A41AA29ADA0030C97B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				274367A91AA29ADA0030C97B /* URITemplate.framework */,
-				274367AB1AA29ADA0030C97B /* URITemplateTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2746CDB51A702F7800719B66 = {
 			isa = PBXGroup;
 			children = (
-				274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */,
 				2746CDDB1A702FC100719B66 /* Configurations */,
 				2746CDC11A702F7800719B66 /* Mockingjay */,
 				2746CDCE1A702F7800719B66 /* MockingjayTests */,
 				2746CDC01A702F7800719B66 /* Products */,
+				920A4D1D1CE5E0F70050B571 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,6 +164,57 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
+		920A4D1D1CE5E0F70050B571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D1E1CE5E1030050B571 /* URITemplate */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920A4D1E1CE5E1030050B571 /* URITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D1F1CE5E10A0050B571 /* iOS */,
+				920A4D201CE5E1110050B571 /* Mac */,
+				920A4D231CE5E11F0050B571 /* tvOS */,
+				920A4D261CE5E1320050B571 /* watchOS */,
+			);
+			name = URITemplate;
+			sourceTree = "<group>";
+		};
+		920A4D1F1CE5E10A0050B571 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D1B1CE5DFC20050B571 /* URITemplate.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		920A4D201CE5E1110050B571 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D211CE5E11C0050B571 /* URITemplate.framework */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		920A4D231CE5E11F0050B571 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D241CE5E1270050B571 /* URITemplate.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		920A4D261CE5E1320050B571 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				920A4D271CE5E13A0050B571 /* URITemplate.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -207,11 +237,11 @@
 				2746CDBB1A702F7800719B66 /* Frameworks */,
 				2746CDBC1A702F7800719B66 /* Headers */,
 				2746CDBD1A702F7800719B66 /* Resources */,
+				920BCD501CE5CF2D0042A068 /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				274367AD1AA29AE70030C97B /* PBXTargetDependency */,
 			);
 			name = Mockingjay;
 			productName = Mockingjay;
@@ -265,12 +295,6 @@
 			mainGroup = 2746CDB51A702F7800719B66;
 			productRefGroup = 2746CDC01A702F7800719B66 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 274367A41AA29ADA0030C97B /* Products */;
-					ProjectRef = 274367A31AA29ADA0030C97B /* URITemplate.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2746CDBE1A702F7800719B66 /* Mockingjay */,
@@ -278,23 +302,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		274367A91AA29ADA0030C97B /* URITemplate.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = URITemplate.framework;
-			remoteRef = 274367A81AA29ADA0030C97B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		274367AB1AA29ADA0030C97B /* URITemplateTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = URITemplateTests.xctest;
-			remoteRef = 274367AA1AA29ADA0030C97B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2746CDBD1A702F7800719B66 /* Resources */ = {
@@ -312,6 +319,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		920BCD501CE5CF2D0042A068 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/URITemplate.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/URITemplate.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/URITemplate.framework",
+				"$(SRCROOT)/Carthage/Build/watchOS/URITemplate.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2746CDBA1A702F7800719B66 /* Sources */ = {
@@ -343,11 +371,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		274367AD1AA29AE70030C97B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = URITemplate;
-			targetProxy = 274367AC1AA29AE70030C97B /* PBXContainerItemProxy */;
-		};
 		2746CDCD1A702F7800719B66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2746CDBE1A702F7800719B66 /* Mockingjay */;
@@ -452,6 +475,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Mockingjay/Info.plist;
@@ -480,6 +507,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Mockingjay/Info.plist;
