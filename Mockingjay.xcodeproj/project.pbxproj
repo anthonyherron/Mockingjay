@@ -471,7 +471,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
+				"ENABLE_BITCODE[sdk=appletv*]" = NO;
+				"ENABLE_BITCODE[sdk=iphone*]" = NO;
+				"ENABLE_BITCODE[sdk=macos*]" = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -503,7 +506,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
+				"ENABLE_BITCODE[sdk=appletv*]" = NO;
+				"ENABLE_BITCODE[sdk=iphone*]" = NO;
+				"ENABLE_BITCODE[sdk=macos*]" = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
